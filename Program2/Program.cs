@@ -6,7 +6,14 @@ namespace Program2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int round = 100;
+            double n = 1;
+            for (int i = round; i > 0; i--)
+            {
+                n *= i;
+            }
+            Console.WriteLine(n);
+
         }
     }
 }
