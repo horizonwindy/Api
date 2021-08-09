@@ -9,7 +9,8 @@
  8. UPDATE  [dbo].[LKPROVINCE] SET [UpdateDate] = GETDATE() WHERE [PROVINCE_NAME] = N'กรุงเทพมหานคร'
  9. INSERT INTO [dbo].[LKPROVINCE] ([PROVINCE_ID],[PROVINCE_NAME],[CreateBy] ,[CreateDate]) VALUES(10,N'กรุงเทพมหานคร',N'system',GETDATE())
 10. SELECT C.[MS_CUS_ID],C.[MS_CUS_ID],P.[PROVINCE_NAME]  FROM [dbo].[MS_CUSTOMER] AS C INNER JOIN  [dbo].[LKPROVINCE] AS P ON C.[PROVINCE_ID] = P.[PROVINCE_ID]
-11. SELECT Emp_Name,
+##
+12. SELECT Emp_Name,
 	   Dept_Name,
 	   Salary
 FROM (
