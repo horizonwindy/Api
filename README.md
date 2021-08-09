@@ -61,4 +61,7 @@ ON E.Dept_ID = D.Dept_ID
 18. A
 19. D
 20. A
-21. 
+21. D
+22. A
+23. C
+24. A
