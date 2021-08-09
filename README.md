@@ -43,3 +43,22 @@ FROM [EMP] AS E
 INNER JOIN [DEP] AS D
 ON E.Dept_ID = D.Dept_ID AND D.[Location] <> 'LA'
 ) AS R.row_num = 2
+##
+13. CREATE VIEW VW_EMP AS
+SELECT E.Emp_ID,
+	   E.Emp_Name,
+	   D.Dept_Name,
+	   E.Salary
+FROM [EMP] AS E
+INNER JOIN [DEP] AS D
+ON E.Dept_ID = D.Dept_ID
+##
+14.ALTER TABLE EMP DROP COLUMN Dept_ID;
+## 
+15. C
+16. D
+17. A
+18. A
+19. D
+20. A
+21. 
